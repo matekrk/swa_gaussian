@@ -1,0 +1,20 @@
+hello everybody,
+so the paper that have chosen is about calibration of neural network and extremely promising algorithm for bayesian neural network framework.
+
+it's done by couple of phd students in each coast of US towards the end of 2019 and it was published in very prestiguous confences, such as NeuroIPS.
+
+So we will briefly go through the problem of uncertainity for DL, talk about BNN. We move smoothly to the paper, present the results and finish up with our attempts for study ablation.
+
+So deep neural network are believed to work really nicely in many situations. There are some issues with deep architecture and there's been ongoing research on the problems. One of the desired property is calibration. So the ideal result of our training would be to obtain the network such that probability associated with the predicted class label should reflect its ground truth correctness likelihood
+
+there are several way to attack the problem - 
+s-shape x: mean predicted value; y: fraction of positives. T- hyperparameter
+bayesian NN
+
+MLE is MAP not really bayesian. log p(th|D) = log p(D|th) + p(th)
+th_MAP = argmax_th p(th|D) forming p(y*|th_map,x*)
+
+......
+
+geometry:
+so there are at least two geometric ways of looking at the paper.

@@ -1,0 +1,8 @@
+https://github.com/wjmaddox/swa_gaussian
+
+loss surfaces mode connectivity and
+
+conjugate gradient
+
+http://auai.org/uai2019/proceedings/papers/435.pdf
+
